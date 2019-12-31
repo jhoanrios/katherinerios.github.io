@@ -6,20 +6,25 @@ Most recent revision:
 
 
   
+/*
 header, footer {
     background-color: darkgreen;
     color: black;
 }
+*/
 
 
 /*#experience {
     border: thick dashed yellow;
 }*/
+/*
 
 #hobbies {
     border: thick dashed yellow;
 }
+*/
 
+/*
 nav .btn {
     background-color: green;
         color: black;
@@ -32,7 +37,25 @@ nav .btn {
 nav .btn:hover {
     font-weight: : bold;
 }
+*/
 
+nav a {
+  display:inline-block;
+font-size: 1.5em;
+margin:10px 0px 10px 10px;
+text-shadow: 1px 1px black;
+padding:10px;
+border-radius:7px;
+background-color: black;
+color: white;
+text-decoration: none;
+box-shadow: 1px 1px grey;
+}
+
+nav a:hover {
+  background-color:rgb(0,0,0,.5);
+    
+}
 
 
 
